@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2D3142;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Goudy Stout';
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    color: #CBEFB6;
+    font-size: 2.5rem;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 15vmin;
+    color: #0E273C;
+    background-color: #F8F4F9;
+    font-family: 'Snap ITC';
+    transition: all 0.3s ease;
+}
+.box:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    cursor: pointer; 
+}
+
+.resetbtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    color: #E0D2C3;
+    background-color: #703D57;
+    font-family: 'Showcard Gothic';  
+}
+.resetbtn:hover {
+    transform: scale(1.1); 
+    background-color: #177E89;
+    color: white;
+    cursor: pointer; 
+    border-color: blue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+}
+.newbtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    color: #E0D2C3;
+    background-color: #703D57;
+    font-family: 'Showcard Gothic';
+    margin-top: -1rem;
+}
+.newbtn:hover {
+    transform: scale(1.1); 
+    background-color: #177E89;
+    color: white;
+    cursor: pointer; 
+    border-color: blue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+}
+.msg {
+    color: #E0D2C3;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.hide {
+    display: none;
+}
+
+main {
+    margin-bottom: 5rem;
+    margin-top: 7rem;
+}
