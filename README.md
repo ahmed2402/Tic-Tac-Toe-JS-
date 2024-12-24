@@ -23,7 +23,7 @@
 
    1. **Download or clone the repository**:
       ```bash
-      git clone https://github.com/yourusername/tic-tac-toe.git
+      git clone https://github.com/ahmed2402/tic-tac-toe.git
       ```
 
    2. **Open the index.html file** in your browser to start playing the game.
